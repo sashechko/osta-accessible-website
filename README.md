@@ -1,5 +1,8 @@
 # Osta Accessible Website
 
+🔗 **Live demo:** [https://sashechko.github.io/osta-accessible-website/](https://sashechko.github.io/osta-accessible-website/)
+
+
 This is a static website for the **NGO "Inovation Practice Center Osta" (IPC Osta, Latvia)**, designed and built with a focus on accessibility and inclusiveness. The goal is to meet **WCAG 2.1 AA** standards and demonstrate best practices in both manual and automated accessibility testing.
 
 ---

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakti - Inovatīvās prakses centrs "Osta"</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Pāriet uz galveno saturu</a>
+    
+<header>
+
+    <a href="index.html" class="logo">
+      <img src="resources/images/logo_for_website-removebg-preview.png"  alt="Inovatīvās prakses centra Osta logotips – sarkanbalta bāka">
+    </a>
+
+    <nav aria-label="Galvenā navigācija"> 
+        <ul>
+            <li><a href="par-mums.html">Par mums</a></li>
+            <li><a href="aktivitates.html">Ko mēs daram</a></li>
+            <li><a href="prakses/pieejas-un-prakses.html">Pieejas un prakses</a></li>
+            <li><a href="blog/index.html">Blogs</a></li>
+            <li><a href="kontakti.html" aria-current="page" class="active">Kontakti</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main id="main-content">
+
+<h1>Kontakti</h1>
+
+  <section class="contact-intro">
+    <p>
+      <span>Inovatīvās prakses centrs "Osta" (biedrība, reģ. Nr. 5000824729)</span> ir reģistrēts Jelgavā, taču darbojas visā Latvijā.
+      Ja vēlaties sadarboties, saņemt pakalpojumus vai uzzināt vairāk par mūsu darbu, lūdzu, rakstiet uz e‑pastu:
+      <a href="mailto:osta.centrs@gmail.com">osta.centrs@gmail.com</a> vai sazinieties ar mums, izmantojot saziņas formu:
+    </p>
+  </section>
+
+  <form class="contact-form" action="https://formspree.io/f/xblkkkoq" method="POST">
+    <!-- Honeypot -->
+  <input type="hidden" name="_gotcha" id="hp">
+
+    <div class="form-field">
+      <label for="name">Jūsu vārds <span class="required" aria-hidden="true">*</span></label>
+      <input type="text" id="name" name="name" required aria-required="true" autocomplete="name">
+    </div>
+
+    <div class="form-field">
+      <label for="email">Jūsu e‑pasts <span class="required" aria-hidden="true">*</span></label>
+      <input type="email" id="email" name="email" required aria-required="true" inputmode="email" autocomplete="email">
+    </div>
+
+    <div class="form-field">
+      <label for="message">Ziņojums <span class="required" aria-hidden="true">*</span></label>
+      <textarea id="message" name="message" rows="8" required aria-required="true"></textarea>
+    </div>
+
+    <fieldset class="form-field checkbox">
+      <legend class="visually-hidden">Datu apstrādes piekrišana</legend>
+      <input type="checkbox" id="consent" name="consent" required aria-required="true">
+      <label for="consent">Es piekrītu, ka mana ievadītā informācija tiks izmantota saziņas nolūkiem.</label>
+    </fieldset>
+
+    <p class="helper"><small><span class="required">*</span> obligāts lauks</small></p>
+
+    <div class="form-actions">
+      <button type="submit" class="button">Sūtīt</button>
+    </div>
+
+    <!-- Optional live region for inline errors if you add JS later -->
+    <div class="form-errors" role="alert" aria-live="polite" hidden></div>
+  </form>
+
+</main>
+
+<footer>
+
+    <div class="footer-content">
+    
+    <div class="footer-left">
+      <span>© Inovatīvās prakses centrs Osta</span>
+      <a href="https://www.facebook.com/CentrsOsta" aria-label="Mūsu Facebook lapa" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+        <span class="visually-hidden" lang="en">Facebook</span>
+      </a>
+    </div>
+
+    <div class="footer-right">
+      <a href="piekļūstamības-paziņojums.html">Piekļūstamības paziņojums</a>
+
+      <address>
+        <p>Kontakti:<br>
+          e-pasts: <a href="mailto:osta.centrs@gmail.com">osta.centrs@gmail.com</a><br>
+        </p>
+      </address>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+</html>

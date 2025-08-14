@@ -776,12 +776,11 @@ main#main-content { flex: 1; }
   }
 }
 
-/* Main section containers */
 #approaches,
 #methods {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem; /* space between elements */
+  gap: 1.5rem; 
   padding: 1rem 1rem;
   background-color: var(--color-white);
   border-radius: 6px;
@@ -1000,7 +999,6 @@ main > h1 {
 
 /* CONTACTS */
 
-/* ===== Kontakti (mobile-first, accessible) ===== */
 
 main > h1 {
   text-align: center;
@@ -1072,7 +1070,7 @@ main > h1 {
 
 .helper { margin: 0.25rem 0 0.5rem; }
 .form-actions { margin-top: 0.75rem; }
-.form-actions .button { padding: 0.6rem 1.1rem; } /* uses your .button styles */
+.form-actions .button { padding: 0.6rem 1.1rem; } 
 
 .form-errors[hidden] { display: none; }
 
@@ -1082,7 +1080,6 @@ main > h1 {
   .contact-form { padding: 1.25rem 1.5rem; }
 }
 
-/* Print: clean and simple */
 @media print {
   .contact-intro, .contact-form {
     box-shadow: none;

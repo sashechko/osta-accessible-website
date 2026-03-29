@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sākumlapa - Inovāciju prakses centrs "Osta"</title>
+  <meta name="description" content="Inovāciju prakses centrs Osta — bezpeļņas organizācija Jelgavā, kas piedāvā atbalstu jauniešiem, ģimenēm un kopienai, izmantojot inovatīvas sociālā darba pieejas.">
+  <meta property="og:title" content="Sākumlapa - Inovāciju prakses centrs &quot;Osta&quot;">
+  <meta property="og:description" content="Inovāciju prakses centrs Osta — bezpeļņas organizācija Jelgavā, kas piedāvā atbalstu jauniešiem, ģimenēm un kopienai, izmantojot inovatīvas sociālā darba pieejas.">
+  <meta property="og:image" content="https://sashechko.github.io/osta-accessible-website/resources/images/jelgavas_baka.jpg">
+  <meta property="og:url" content="https://sashechko.github.io/osta-accessible-website/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="lv_LV">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -16,17 +22,22 @@
 <header>
 
     <a href="index.html" class="logo">
-      <img src="resources/images/logo_for_website-removebg-preview.png"  alt="Inovāciju prakses centra Osta logotips – sarkanbalta bāka">
+      <img src="resources/images/logo_png.png" alt="" width="48" height="48">
+      Inovāciju prakses centrs Osta
     </a>
 
-    <nav aria-label="Galvenā navigācija"> 
-        <ul>
-            <li><a href="par-mums.html">Par mums</a></li>
-            <li><a href="aktivitates.html">Ko mēs daram</a></li>
-            <li><a href="prakses/pieejas-un-prakses.html">Pieejas un prakses</a></li>
-            <li><a href="blog/index.html">Blogs</a></li>
-            <li><a href="kontakti.html">Kontakti</a></li>
-        </ul>
+    <nav aria-label="Galvenā navigācija">
+        <details class="nav-menu" open>
+            <summary aria-label="Atvērt izvēlni"><span class="hamburger" aria-hidden="true"></span></summary>
+            <ul>
+                <li><a href="index.html" aria-current="page" class="active">Sākumlapa</a></li>
+                <li><a href="par-mums.html">Par mums</a></li>
+                <li><a href="aktivitates.html">Ko mēs daram</a></li>
+                <li><a href="prakses/pieejas-un-prakses.html">Pieejas un prakses</a></li>
+                <li><a href="blog/index.html">Blogs</a></li>
+                <li><a href="kontakti.html">Kontakti</a></li>
+            </ul>
+        </details>
     </nav>
 
 </header>
@@ -34,7 +45,7 @@
 <main id="main-content">
 
     <section class="introduction">
-        <img src="resources/images/jelgavas_baka.jpg" alt="Sarkanbalta bāka un tilts pāri upei Jelgavā" width="900" height="600">
+        <img src="resources/images/lighthouse_hero.png" alt="Ilustrācija: bāka, kuras kontūra pāriet cilvēku siluetos — kopiena, kas iet kopā uz priekšu" width="900" height="300">
         
         <div class="introduction-text">
            <h1>Inovāciju prakses centrs Osta</h1>
@@ -51,7 +62,7 @@
                 
                 <a href="aktivitates.html#jauniesu-grupa" >
                    <article class="card">
-                     <img src="resources/images/jauniešu-grupa.jpg" alt="Pusaudži spēlē galda spēles atbalsta grupas laikā" width="300" height="200">
+                     <img src="resources/images/jauniešu-grupa.jpg" alt="Pusaudži spēlē galda spēles atbalsta grupas laikā" width="300" height="200" loading="lazy">
                      <h3>Jauniešu atbalsta grupa</h3>
                     </article>
                 </a>
@@ -59,7 +70,7 @@
 
                 <a href="aktivitates.html#konsultacijas" >
                 <article class="card">
-                     <img src="resources/images/Counselling_Talk-Therapy.jpg" alt="Sieviete sēž uz dīvāna un sarunājas ar speciālistu individuālās konsultācijas laikā" width="300" height="200">
+                     <img src="resources/images/Counselling_Talk-Therapy.jpg" alt="Sieviete sēž uz dīvāna un sarunājas ar speciālistu individuālās konsultācijas laikā" width="300" height="200" loading="lazy">
                      <h3>Konsultācijas pieaugušiem</h3>
                 </article>
                 </a>
@@ -67,14 +78,14 @@
 
                 <a href="aktivitates.html#recovery" >
                 <article class="card">
-                     <img src="resources/images/recovery.jpg" alt="Vīrietis sēž kalnos, skatoties tālumā — simbolisks ceļš uz atlabšanu" width="300" height="200">
+                     <img src="resources/images/recovery.jpg" alt="Vīrietis sēž kalnos, skatoties tālumā — simbolisks ceļš uz atlabšanu" width="300" height="200" loading="lazy">
                      <h3>Atlabšanas veicināšana</h3>
                 </article>
                 </a>
 
                 <a href="aktivitates.html#atbalsts-ģimenem" >
                 <article class="card">
-                     <img src="resources/images/family-support.jpg" alt="Ģimene sēž kopā uz dīvāna, sarunājas un smejas ģimenes atbalsta sesijā" width="300" height="200">
+                     <img src="resources/images/family-support.jpg" alt="Ģimene sēž kopā uz dīvāna, sarunājas un smejas ģimenes atbalsta sesijā" width="300" height="200" loading="lazy">
                      <h3>Atbalsts ģimenēm</h3>
                 </article>
                 </a>
@@ -82,7 +93,7 @@
 
                 <a href="aktivitates.html#atbalsts-profesionaliem" >
                 <article class="card">
-                <img src="resources/images/macības.jpg" alt="Sociālie darbinieki piedalās profesionālās pilnveides apmācībās" width="300" height="200">
+                <img src="resources/images/macības.jpg" alt="Sociālie darbinieki piedalās profesionālās pilnveides apmācībās" width="300" height="200" loading="lazy">
                      <h3>Atbalsts profesionāļiem</h3>
                 </article>
                 </a>
@@ -90,7 +101,7 @@
 
                 <a href="aktivitates.html#international" >
                 <article class="card">
-                                     <img src="resources/images/sadarbība.jpg" alt="Konferenču telpa starptautiska pasākuma laikā" width="300" height="200">
+                                     <img src="resources/images/sadarbība.jpg" alt="Konferenču telpa starptautiska pasākuma laikā" width="300" height="200" loading="lazy">
                      <h3>Starptautiskā sadarbība</h3>
                 </article>
                 </a>
@@ -102,14 +113,15 @@
 
 <section class="blog" aria-labelledby="blog-title">
     <h2 id="blog-title">Jaunākie ieraksti blogā</h2>
-    <ul class="blog-list">
-            <li><a href="blog/index.html#biedru-sapulce">
-               <h3><span class="visually-hidden">Ieraksts:</span> <time datetime="2025-08-18">18.08.2025.</time> Plānota biedru sapulce un stratēģijas pārskatīšana.</h3>
-               <p> 2025. gada 18. augustā tiks rīkota biedrības “Inovāciju prakses centrs Osta” biedru sapulce. Tās mērķis ir uzņemt jaunus biedrus un izstrādāt stratēģiju nākamajam darbības gadam.</p> </a></li>
-            <li><a href="blog/index.html#mājaslapa"> 
-                <h3><span class="visually-hidden">Ieraksts:</span> <time datetime="2025-07-17">17.07.2025.</time> Mēs uzsākam izstrādāt piekļūstamu mājaslapu.</h3> 
-                <p> Biedrība “Inovāciju prakses centrs Osta” ir uzsākusi savas jaunās mājaslapas izstrādi, īpašu uzmanību pievēršot digitālajai piekļūstamībai. 
-    Piekļūstama mājaslapa ir būtiska, lai nodrošinātu vienlīdzīgu informācijas un pakalpojumu pieeju visiem sabiedrības locekļiem</p></a></li>
+    <ul class=”blog-list”>
+            <li>
+               <h3><a href=”blog/index.html#nvo-nams”><time datetime=”2026-01-15”>15.01.2026.</time> Jauniešu atbalsta grupa turpina darbu NVO namā.</a></h3>
+               <p>Mūsu jauniešu atbalsta grupa arī 2026. gadā turpina tikties Jelgavas NVO namā. Kā ierasts — katru otro sestdienu.</p>
+            </li>
+            <li>
+               <h3><a href=”blog/index.html#biedru-sapulce”><time datetime=”2025-08-18”>18.08.2025.</time> Plānota biedru sapulce un stratēģijas pārskatīšana.</a></h3>
+               <p>2025. gada 18. augustā tiks rīkota biedrības “Inovāciju prakses centrs Osta” biedru sapulce. Tās mērķis ir uzņemt jaunus biedrus un izstrādāt stratēģiju nākamajam darbības gadam.</p>
+            </li>
     </ul>
 </section>
 
@@ -119,10 +131,11 @@
 
   <figure>
     <img
-      src="resources/images/baka_quote.jpg"
+      src="resources/images/lighthouse_quote.png"
       height="200"
-      width="175"
+      width="200"
       alt="Stilizēta bāka – kā simbols cilvēka iekšējām ilgām un spējām"
+      loading="lazy"
     >
     <blockquote lang="lv">
       <p>
@@ -154,7 +167,7 @@
     <div class="footer-left">
       <span>© Inovāciju prakses centrs Osta</span>
       <a href="https://www.facebook.com/CentrsOsta" aria-label="Mūsu Facebook lapa" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
         <span class="visually-hidden" lang="en">Facebook</span>
       </a>
     </div>
@@ -173,5 +186,6 @@
 
 </footer>
 
+<script>!function(){var d=document.querySelector(".nav-menu"),b=1024;function u(){window.innerWidth>=b?d.setAttribute("open",""):window.innerWidth<b&&!d.hasAttribute("data-user-open")&&d.removeAttribute("open")}d.addEventListener("toggle",function(){window.innerWidth<b&&(d.open?d.setAttribute("data-user-open",""):d.removeAttribute("data-user-open"))});window.addEventListener("resize",function(){d.removeAttribute("data-user-open");u()});u()}();</script>
 </body>
 </html>

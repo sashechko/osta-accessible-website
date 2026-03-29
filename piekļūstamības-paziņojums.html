@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Piekļūstamības paziņojums - Inovāciju prakses centrs "Osta"</title>
+  <meta name="description" content="Piekļūstamības paziņojums — informācija par mājaslapas atbilstību WCAG 2.1 AA vadlīnijām un kontakti piekļūstamības jautājumos.">
+  <meta property="og:title" content="Piekļūstamības paziņojums - Inovāciju prakses centrs &quot;Osta&quot;">
+  <meta property="og:description" content="Piekļūstamības paziņojums — informācija par mājaslapas atbilstību WCAG 2.1 AA vadlīnijām un kontakti piekļūstamības jautājumos.">
+  <meta property="og:image" content="https://sashechko.github.io/osta-accessible-website/resources/images/jelgavas_baka.jpg">
+  <meta property="og:url" content="https://sashechko.github.io/osta-accessible-website/piek%C4%BC%C5%ABstam%C4%ABbas-pazi%C5%86ojums.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="lv_LV">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
@@ -15,24 +21,29 @@
 <header>
 
     <a href="index.html" class="logo">
-      <img src="resources/images/logo_for_website-removebg-preview.png"  alt="Inovāciju prakses centra Osta logotips – sarkanbalta bāka">
+      <img src="resources/images/logo_png.png" alt="" width="48" height="48">
+      Inovāciju prakses centrs Osta
     </a>
 
-    <nav aria-label="Galvenā navigācija"> 
-        <ul>
-            <li><a href="par-mums.html">Par mums</a></li>
-            <li><a href="aktivitates.html">Ko mēs daram</a></li>
-            <li><a href="prakses/pieejas-un-prakses.html">Pieejas un prakses</a></li>
-            <li><a href="blog/index.html">Blogs</a></li>
-            <li><a href="kontakti.html">Kontakti</a></li>
-        </ul>
+    <nav aria-label="Galvenā navigācija">
+        <details class="nav-menu" open>
+            <summary aria-label="Atvērt izvēlni"><span class="hamburger" aria-hidden="true"></span></summary>
+            <ul>
+                <li><a href="index.html">Sākumlapa</a></li>
+                <li><a href="par-mums.html">Par mums</a></li>
+                <li><a href="aktivitates.html">Ko mēs daram</a></li>
+                <li><a href="prakses/pieejas-un-prakses.html">Pieejas un prakses</a></li>
+                <li><a href="blog/index.html">Blogs</a></li>
+                <li><a href="kontakti.html">Kontakti</a></li>
+            </ul>
+        </details>
     </nav>
 
 </header>
 
 
 <main id="main-content">
-<article>
+<article class="method-article">
 <h1>Piekļūstamības paziņojums</h1>
 <p>Šo tīmekļvietni izstrādā un uztur Inovāciju prakses centrs “Osta”. Mēs apņemamies nodrošināt šīs vietnes piekļūstamību atbilstoši Eiropas Parlamenta un Padomes Direktīvai (ES) 2016/2102 un Ministru kabineta noteikumiem Nr. 445, kas nosaka prasības publisko personu tīmekļvietņu un mobilo lietotņu piekļūstamībai.<br>
 Šobrīd vietne atrodas izstrādes stadijā, un tās veidošanā tiek ievērotas WCAG 2.1 AA līmeņa piekļūstamības vadlīnijas.</p>
@@ -59,7 +70,7 @@ Mēs novērtējam Jūsu atsauksmes un centīsimies sniegt atbildi saprātīgā t
     <div class="footer-left">
       <span>© Inovāciju prakses centrs Osta</span>
       <a href="https://www.facebook.com/CentrsOsta" aria-label="Mūsu Facebook lapa" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
         <span class="visually-hidden" lang="en">Facebook</span>
       </a>
     </div>
@@ -77,5 +88,6 @@ Mēs novērtējam Jūsu atsauksmes un centīsimies sniegt atbildi saprātīgā t
   </div>
 
 </footer>
+<script>!function(){var d=document.querySelector(".nav-menu"),b=1024;function u(){window.innerWidth>=b?d.setAttribute("open",""):window.innerWidth<b&&!d.hasAttribute("data-user-open")&&d.removeAttribute("open")}d.addEventListener("toggle",function(){window.innerWidth<b&&(d.open?d.setAttribute("data-user-open",""):d.removeAttribute("data-user-open"))});window.addEventListener("resize",function(){d.removeAttribute("data-user-open");u()});u()}();</script>
 </body>
 </html>

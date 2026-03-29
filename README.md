@@ -1,9 +1,8 @@
 # Osta Accessible Website
 
-🔗 **Live demo:** [https://sashechko.github.io/osta-accessible-website/](https://sashechko.github.io/osta-accessible-website/)
+**Live:** [https://sashechko.github.io/osta-accessible-website/](https://sashechko.github.io/osta-accessible-website/)
 
-
-This is a static website for the **NGO "Inovation Practice Center Osta" (IPC Osta, Latvia)**, designed and built with a focus on accessibility and inclusiveness. The goal is to meet **WCAG 2.1 AA** standards and demonstrate best practices in both manual and automated accessibility testing.
+This is a static website for the **NGO "Inovaciju prakses centrs Osta" (IPC Osta, Latvia)**, designed and built with a focus on accessibility and inclusiveness. The goal is to meet **WCAG 2.1 AA** standards and demonstrate best practices in accessible web design.
 
 ---
 
@@ -15,10 +14,12 @@ This is a static website for the **NGO "Inovation Practice Center Osta" (IPC Ost
 ---
 
 ## Tech Stack
-- HTML5
-- CSS3 (reset + custom styles)
-- Manual testing tools: WAVE, axe DevTools, keyboard-only nav, screen reader etc (in progress) 
-- Automated testing tools: axe-core, Lighthouse etc (in progress) 
+- HTML5 (semantic markup, ARIA attributes)
+- CSS3 (reset + custom styles, responsive design, print stylesheet)
+- Minimal JavaScript (responsive hamburger menu only)
+- Formspree for contact form handling
+- Manual testing tools: WAVE, axe DevTools, keyboard-only nav, screen reader (in progress)
+- Automated testing tools: axe-core, Lighthouse (in progress)
 
 ---
 
@@ -31,32 +32,49 @@ This is a static website for the **NGO "Inovation Practice Center Osta" (IPC Ost
 ├── kontakti.html
 ├── par-mums.html
 ├── piekļūstamības-paziņojums.html
+├── 404.html
+├── sitemap.xml
 ├── README.md
 ├── ACCESSIBILITY.md
 ├── accessibility tests/
-│ ├── manual/
-│ └── automated/
+│   ├── manual/
+│   └── automated/
 ├── blog/
-│ └── index.html
+│   └── index.html
 ├── css/
-│ ├── index.css
-│ └── reset.css
+│   ├── index.css
+│   └── reset.css
 ├── prakses/
-│ ├── dzīvības-koks.html
-│ ├── family-conf.html
-│ ├── kids-skills.html
-│ ├── pieejas-un-prakses.html
-│ └── woww.html
+│   ├── dzīvibas-koks.html
+│   ├── family-conf.html
+│   ├── kids-skills.html
+│   ├── pieejas-un-prakses.html
+│   └── woww.html
 └── resources/
-└── (images, logos, etc.)
+    └── images/
 ```
 
 ---
 
-## Deployment
-The site will be published using GitHub Pages once completed.
+## Accessibility Features
+- Skip link on every page
+- Semantic HTML5 landmarks and heading hierarchy
+- ARIA labels and attributes throughout
+- Keyboard-navigable hamburger menu (details/summary, no-JS fallback)
+- Focus indicators on all interactive elements
+- Responsive design with mobile-first approach
+- Reduced motion support
+- Forced colors / high contrast mode support
+- Print stylesheet
+- Lazy loading for below-fold images
+- Inline SVG icons (no external icon CDN dependencies)
 
---- 
+---
+
+## Deployment
+The site is published via GitHub Pages.
+
+---
 
 ## Author
-**Aleksandra Pavlovska**  – Junior Accessibility & QA Tester, Social Worker (MSW), Latvia
+**Aleksandra Pavlovska** -- Junior Accessibility & QA Tester, Social Worker (MSW), Latvia

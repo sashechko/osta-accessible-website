@@ -54,7 +54,17 @@ Test code and report outputs will be stored in: `/accessibility tests/automated/
 
 ## Status
 
-Accessibility testing is currently in progress. Reports and fixes are applied iteratively throughout development. This document will be updated as the website moves toward public release.
+The website is live and accessible. Accessibility features implemented include:
+- Skip links, semantic HTML, ARIA labels
+- Focus indicators on all interactive elements
+- Responsive hamburger menu (keyboard accessible)
+- `loading="lazy"` on below-fold images
+- `lang` attributes on foreign-language terms
+- `:user-invalid` for form validation (no premature error display)
+- Print stylesheet and forced-colors support
+- Meta descriptions and Open Graph tags on all pages
+
+Testing is ongoing. Reports and fixes are applied iteratively.
 
 
 ---
